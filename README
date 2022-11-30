@@ -1,0 +1,5 @@
+Simple python script to act when certain buttons of a USB joystick is pressed. I wrote it for a "escape room" like play I build.
+
+The player has to guess the right presses order. Another code will just shutdown the machine (I was running in in a raspiberry pi). In Raspbian I just call it from /etc/rc.local to run the script on boot (as root so it has permissions to shutdown the equipment).
+
+You will need to adjust the path for your joystick and set the right scancodes from it for each button.
